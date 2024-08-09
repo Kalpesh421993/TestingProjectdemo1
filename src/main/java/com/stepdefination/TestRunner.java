@@ -8,7 +8,7 @@ import io.cucumber.testng.CucumberOptions;
 		plugin = {"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"},
 		
 		features = {"src/test/resources/com/Features/DonateAmount.feature"}, 
-		glue = {"com.stepdefination"} ,dryRun=true
+		glue = {"com.stepdefination"} ,dryRun=false
 		
 )
 
